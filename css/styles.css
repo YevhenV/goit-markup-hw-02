@@ -1,0 +1,214 @@
+/*
+logo - Raleway<700
+Roboto,400,500,700,900
+h2-700
+h3-400
+nav+mail-500
+h1-900
+standart-blue - #2196F3
+*/
+:root {
+  --main-font: "Roboto", sans-serif;
+  --logo-font: "Raleway", sans-serif;
+  --logo-main-color: #000000;
+  --logo-main-color-dark-theme: #ffffff;
+  --logo-secondary-color: #2196f3;
+  --main-text-color: #212121;
+  --second-text-color: #757575;
+  --accent-color: #2196f3;
+  --main-titel-black-theme: #fff;
+  --main-titel-white-theme: #000;
+  --footer-dark-theme: #fff;
+  --button-back-color: #2196f3;
+  --button-text-color: #fff;
+  --filter-button-main-color: #f5f4fa;
+  --filter-button-activ-color: #2196f3;
+  --filter-button-text-color: #212121;
+  --filter-button-activ-text-color: #ffffff;
+}
+
+body {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14em;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.logo-white-theme {
+  color: var(--logo-main-color);
+}
+
+.logo-accent {
+  color: var(--logo-secondary-color);
+}
+
+.nav-menu-link,
+.contact-mail,
+.contact-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.nav-menu-link:hover,
+.nav-menu-link:focus {
+  color: var(--accent-color);
+}
+
+.contact-mail:hover,
+.contact-mail:focus {
+  color: var(--accent-color);
+}
+
+.contact-tel:hover,
+.contact-tel:focus {
+  color: var(--accent-color);
+}
+
+/*-----HERO------*/
+.main-titel {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  color: var(--main-titel-black-theme);
+  background-color: var(--main-titel-white-theme);
+  text-align: center;
+}
+
+/*-----HERO BUTTON-----*/
+
+.hero-button {
+  background-color: var(--button-back-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87em;
+  letter-spacing: 0.06em;
+  color: var(--button-text-color);
+}
+/*--Особенности--*/
+
+.specifics-item-titel {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17em;
+  letter-spacing: 0.03em;
+}
+
+.specifics-item-desk {
+  color: var(--second-text-color);
+}
+/*--Sections--*/
+
+.section-description {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14em;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17em;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.17em;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.employe-prof {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.17em;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+
+/*--Подвал--*/
+
+footer {
+  background-color: var(--main-titel-white-theme);
+}
+
+.logo-dark-theme {
+  color: var(--logo-main-color-dark-theme);
+}
+
+.footer-adress,
+.footer-tel,
+.footer-mail {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71em;
+  letter-spacing: 0.03em;
+  color: var(--footer-dark-theme);
+}
+
+.footer-adress:hover,
+.footer-adress:focus,
+.footer-tel:hover,
+.footer-tel:focus,
+.footer-mail:hover,
+.footer-mail:focus {
+  color: var(--accent-color);
+}
+
+/*---PORTFOLIO----
+----------BUTTON*/
+.our-work-filter-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62em;
+  letter-spacing: 0.03em;
+  color: var(--filter-button-text-color);
+  background-color: var(--filter-button-main-color);
+}
+.our-work-filter-button:hover,
+.our-work-filter-button:focus {
+  color: var(--filter-button-activ-text-color);
+  background-color: var(--filter-button-activ-color);
+}
+
+/*------GALLERY-------*/
+.our-work-title {
+  font-size: 18px;
+  line-height: 2em;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color);
+}
+
+.our-work-desk {
+  font-size: 16px;
+  line-height: 1.87em;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
